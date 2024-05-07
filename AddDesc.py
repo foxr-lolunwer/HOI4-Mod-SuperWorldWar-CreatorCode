@@ -1,3 +1,5 @@
+# 事先准备好in/out文件,然后声明其地址字符串,见in文件示例
+
 def add_desc(add_desc_mode=None):
     out_text = ''
     with open(in_file_path, "r", encoding="utf-8") as f:
